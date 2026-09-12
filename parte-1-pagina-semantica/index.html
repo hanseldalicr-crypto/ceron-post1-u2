@@ -3,15 +3,220 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio de Hansel Cerón, curso de programación web
-        estudiante de Ingeniería de Sistemas, Séptimo Semestre. 2026.">
+  <meta name="description" content="Portafolio de Hansel Cerón, curso de programación web, estudiante de Ingeniería de Sistemas, Séptimo Semestre. 2026.">
   <meta name="author" content="Hansel Cerón">
   <meta name="robots" content="index, follow">
   <title>Portafolio — Hansel Cerón | Ingeniería de Sistemas</title>
 </head>
 <body>
 
-  <!-- Aquí se construirá el contenido en los pasos siguientes -->
+  <header>
+    <h1>Hansel Cerón</h1>
+    <p>Estudiante de Ingeniería de Sistemas — Séptimo Semestre</p>
 
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Sección: presentación personal -->
+    <section id="sobre-mi">
+      <h2>Sobre Mí</h2>
+
+      <figure>
+        <img
+          src="img/perfil.jpg"
+          alt="Fotografía de perfil de Hansel Cerón"
+          width="150"
+          height="150"
+          loading="eager"
+        >
+        <figcaption>Estudiante de Ingeniería de Sistemas, 2026.</figcaption>
+      </figure>
+
+      <p>
+        Hansel Dalí Cerón Rincón es estudiante de quinto semestre de 
+        Ingeniería de Sistemas en la Universidad Francisco de Paula Santander. 
+        Sus áreas de interés y enfoque académico incluyen el desarrollo de
+        software en Java, la programación competitiva y el análisis de 
+        estructuras de datos y sistemas de bases de datos.
+      </p>
+    </section>
+
+    <!-- Sección: proyectos -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+
+      <!-- Cada proyecto es un article: contenido autocontenido -->
+      <article>
+        <h3>Proyecto 1: [Nombre del proyecto]</h3>
+        <p>[Descripción breve del proyecto: qué hace, tecnologías usadas.]</p>
+        <p>Tecnologías: HTML5, CSS3, JavaScript.</p>
+        <a href="https://github.com/hanseldalicr-crypto/dondeludy_final.git"
+           target="_blank"
+           rel="noopener noreferrer">
+          Ver repositorio en GitHub
+        </a>
+      </article>
+
+      <article>
+        <h3>Proyecto 2: [Nombre del proyecto]</h3>
+        <p>[Descripción breve del proyecto.]</p>
+        <p>Tecnologías: Java, Spring Boot, MySQL.</p>
+        <a href="https://github.com/hanseldalicr-crypto/ceron-post1-u1.git"
+           target="_blank"
+           rel="noopener noreferrer">
+          Ver repositorio en GitHub
+        </a>
+      </article>
+
+    </section>
+
+
+    <aside id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <h3>Tecnologías Web</h3>
+    <ul>
+      <li>HTML5 — Marcado semántico y accesibilidad</li>
+      <li>CSS3 — Diseño responsive y Flexbox</li>
+      <li>JavaScript — Manipulación del DOM y eventos</li>
+    </ul>
+
+    <h3>Flujo de Trabajo</h3>
+    <ol>
+      <li>Planificación y diseño de wireframes</li>
+      <li>Desarrollo de la estructura HTML semántica</li>
+      <li>Aplicación de estilos CSS</li>
+      <li>Pruebas en múltiples navegadores</li>
+      <li>Despliegue y control de versiones con Git</li>
+    </ol>
+
+    <h3>Conceptos Clave</h3>
+    <dl>
+      <dt>Semántica HTML</dt>
+      <dd>Uso de etiquetas que describen el significado del contenido.</dd>
+      <dt>Accesibilidad WCAG</dt>
+      <dd>Pautas para hacer el contenido web perceptible, operable, comprensible y robusto para todos los usuarios.</dd>
+      <dt>SEO</dt>
+      <dd>Optimización para que los motores de búsqueda indexen y posicionen correctamente el contenido.</dd>
+    </dl>
+  </aside>
+   
+  <!-- Opción A: cada logro como article independiente -->
+<section id="logros">
+  <h2>Logros y Certificaciones</h2>
+  <article>
+    <h3>Google: Inteligencia Artificial y productividad</h3>
+    <time datetime="2024-11-24">24 de Noviembre de 2024</time>
+    <p>Fundamentos para el uso de IA generativa y aplicaciones prácticas de esta en la automatización de tareas. 
+      Duración: 2 horas - 2 modulos. Emitida por Santander Open Academy.
+    </p>
+  </article>
+  <article>
+    <h3>Pensamiento crítico y resolución de problemas</h3>
+    <time datetime="2024-11-24">24 de Noviembre de 2024</time>
+    <p>Desarrollo de habilidades analíticas para identificar y definir problemas complejos para desarrollar soluciones efectivas
+      Duración: 8 horas - 2 modulos. Emitida por Santander Open Academy.
+    </p>
+  </article>
+</section>
+
+<!-- Opción B: audio con transcripción dentro de details/summary -->
+<section id="multimedia">
+  <h2>Multimedia</h2>
+  <figure>
+    <audio controls preload="metadata">
+      <source src="audio/intro.mp3" type="audio/mpeg">
+      <source src="audio/intro.ogg" type="audio/ogg">
+      <p>
+        El navegador no soporta audio HTML5.
+        <a href="audio/intro.mp3">Descargar el audio de introducción</a>.
+      </p>
+    </audio>
+    <figcaption>
+      Audio de introducción personal (30 segundos aprox.). Transcripción completa disponible abajo.
+    </figcaption>
+  </figure>
+
+  <details>
+    <summary>Ver transcripción del audio</summary>
+    <p>
+      Mi nombre es Hansel Dalí Cerón Rincón, estudiante de quinto semestre de Ingeniería de Sistemas en la Universidad Francisco de Paula Santander. 
+      Tengo 20 años y me apasiona el desarrollo de software, he participado en programación competitiva y también disfruto construyendo aplicaciones en 
+      lenguajes como java y c++. Actualmente me encuentro cursandola materia de programación web y a lo largo de mi formación académica me he enfocado 
+      en aplicar buenas prácticas de ingeniería ya que me gusta seguir aprendiendo cotidianamente.
+    </p>
+  </details>
+</section>
+
+<section id="preguntas-frecuentes">
+  <h2>Preguntas Frecuentes</h2>
+
+  <details>
+    <summary>¿Qué tecnologías fueron utilizadas para desarrollar el portafolio?</summary>
+    <p>
+      Se utilizó <mark>HTML semántico</mark>, priorizando una 
+      estructura limpia y accesible que cumpla con los estándares web 
+      actuales sin depender de frameworks pesados para la base.
+    </p>
+  </details>
+
+  <details>
+    <summary>¿Cómo se pueden verificar o validar las certificaciones?</summary>
+    <p>
+      Cada bloque de logro o proyecto incluye los datos clave, 
+      como la institución emisora, la fecha y las tecnologías utilizadas.
+    </p>
+  </details>
+</section>
+
+  </main>
+
+<footer id="contacto">
+    <h2>Contacto</h2>
+
+    <address>
+      <p>
+        <a href="mailto:hanseldalicr@ufps.edu.co">
+          hanseldalicr@ufps.edu.co
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/hanseldalicr-crypto"
+           target="_blank"
+           rel="noopener noreferrer">
+          GitHub: /hanseldalicr-crypto
+        </a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/hansel-dali-ceron-rincon/"
+           target="_blank"
+           rel="noopener noreferrer">
+          LinkedIn: /in/hansel-dali-ceron-rincon/
+        </a>
+      </p>
+    </address>
+
+    <nav aria-label="Navegación del pie de página">
+      <ul>
+        <li><a href="#sobre-mi">Volver al inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+      </ul>
+    </nav>
+
+    <p>
+      <small>
+        &copy; 2026 Hansel Cerón — Ingeniería de Sistemas. Todos los derechos reservados.
+      </small>
+    </p>
+  </footer>
+  
 </body>
 </html>
