@@ -36,7 +36,7 @@ Se optó por un elemento de audio con transcripción dentro de
 Se tomó la decisión de utilizar la Opción B con aria-describedby para asociar el campo de teléfono con un texto de ayuda contextual, de esta forma se mantiene la consistencia con el patrón de accesibilidad y evitamos alterar el texto visible del label.
 
 ## Cómo visualizar el proyecto
-1. Clonar el repositorio: `git clone [URL-del-repo]`
+1. Clonar el repositorio: `git clone https://github.com/hanseldalicr-crypto/ceron-post1-u2.git`
 2. Abrir la carpeta en Visual Studio Code
 3. Clic derecho en index.html o registro.html → "Open with Live Server"
 
