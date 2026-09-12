@@ -25,12 +25,12 @@ Ver parte-2-formulario-registro/.
 ## Decisiones de diseño
 
 ### 1. Estructura semántica de "Logros y Certificaciones" (Parte 1)
-Se decidió estructurar cada certificación utilizando elementos <article> independientes, porque son unidades de información completas y tienen sentido por si solas afuera del sitio. 
+Se decidió estructurar cada certificación utilizando elementos &lt;article&gt; independientes, porque son unidades de información completas y tienen sentido por si solas afuera del sitio. 
 Esta decisión permite que el contenido sea redistribuible y fácil de reutilizar sin perder contexto.
 
 ### 2. Formato multimedia de la introducción personal (Parte 1)
 Se optó por un elemento de audio con transcripción dentro de
-<details>/<summary> con formatos MP3 y OGG, debido a que permite una carga más ligera y directa en el sitio web sin descuidar la accesibilidad. Esta estructura asegura que la información sea totalmente accesible para cualquier usuario, cumpliendo con los estándares de perceptibilidad.
+&lt;details&gt;/&lt;summary&gt; con formatos MP3 y OGG, debido a que permite una carga más ligera y directa en el sitio web sin descuidar la accesibilidad. Esta estructura asegura que la información sea totalmente accesible para cualquier usuario, cumpliendo con los estándares de perceptibilidad.
 
 ### 3. Marcado del campo opcional "teléfono" (Parte 2)
 Se tomó la decisión de utilizar la Opción B con aria-describedby para asociar el campo de teléfono con un texto de ayuda contextual, de esta forma se mantiene la consistencia con el patrón de accesibilidad y evitamos alterar el texto visible del label.
